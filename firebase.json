@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "build",
-    "target": "memorysite",
     "ignore": [
       "firebase.json",
       "**/.*",
