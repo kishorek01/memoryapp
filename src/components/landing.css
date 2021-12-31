@@ -45,7 +45,7 @@ a {
 	margin: 15px 0;
 }
 
-button {
+.button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
 	background-color: #FF4B2B;
@@ -59,20 +59,30 @@ button {
 	transition: transform 80ms ease-in;
 }
 
-button:active {
+.button:active {
 	transform: scale(0.95);
 }
 
-button:focus {
+.button:focus {
 	outline: none;
 }
 
-button.ghost {
+.ghostbutton {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+  cursor: pointer;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
 
-form {
+.form {
 	background-color: #FFFFFF;
 	display: flex;
 	align-items: center;
@@ -84,7 +94,7 @@ form {
 	text-align: center;
 }
 
-input {
+.inputcls {
 	background-color: #eee;
 	border: none;
 	padding: 12px 15px;
@@ -229,7 +239,7 @@ input {
 	width: 40px;
 }
 
-footer {
+.footer {
     background-color: #222;
     color: #fff;
     font-size: 14px;
@@ -241,15 +251,15 @@ footer {
     z-index: 999;
 }
 
-footer p {
+.footer p {
     margin: 10px 0;
 }
 
-footer i {
+.footer i {
     color: red;
 }
 
-footer a {
+.footer a {
     color: #3c97bf;
     text-decoration: none;
 }
