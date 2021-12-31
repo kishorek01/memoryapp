@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {  Switch, Route } from "react-router-dom";
 import PropTypes from "prop-types";
 import Landing from "../components/landing"
 import Home from "../components/home"
@@ -9,9 +9,7 @@ import Home from "../components/home"
        location: PropTypes.object,
        history: PropTypes.object
      };
-   constructor(props){
-     super(props);
-   }
+
   render(){
   return (
   <Switch>
