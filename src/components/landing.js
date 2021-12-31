@@ -79,7 +79,7 @@ pauseOnHover
 />
       <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#">
+		<form >
 			<h1>Create Account</h1>
 			<input value={this.state.username} onChange={(e)=>{this.changeValue("username",e)}} placeholder="Username" />
 			<input value={this.state.password} onChange={(e)=>{this.changeValue("password",e)}} type="password" placeholder="Password" />
@@ -87,7 +87,7 @@ pauseOnHover
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form >
 			<h1>Sign in</h1>
 			<input value={this.state.username} onChange={(e)=>{this.changeValue("username",e)}} placeholder="Username" />
 			<input value={this.state.password} onChange={(e)=>{this.changeValue("password",e)}} type="password" placeholder="Password" />
